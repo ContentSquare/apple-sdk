@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
     s.source_files = 'Sources/Contentsquare/**/*.swift'
    
     s.ios.dependency 'CS_iOS_SDK_STATIC', '4.37.0'
-    s.dependency 'HeapSwiftCore', '0.7.1'
+    s.dependency 'HeapSwiftCore', '0.7.2'
     s.ios.dependency 'HeapContentsquareIntegrationSDK_static', '0.7.1'
     s.ios.dependency 'HeapIOSAutocapture', '0.7.0'
     s.ios.dependency 'HeapNotificationAutocapture', '0.7.0'

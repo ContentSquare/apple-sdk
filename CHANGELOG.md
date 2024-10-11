@@ -10,7 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Update CS dependency to 4.37.0
+- Update HeapSwiftCore dependency to [0.7.2][heap-swift-core-0.7.2]
 
+[heap-swift-core-0.7.2]: https://github.com/heap/heap-swift-core-sdk/releases/tag/0.7.2
 [0.2.0]: https://github.com/ContentSquare/apple-sdk/releases/tag/0.2.0
 
 ## [0.1.1]
