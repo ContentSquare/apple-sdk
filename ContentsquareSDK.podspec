@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
     s.name = 'ContentsquareSDK'
     s.module_name = 'Contentsquare'
     s.header_dir = 'Contentsquare'
-    s.version = '0.2.1'
+    s.version = '0.2.2'
     s.summary = 'Contentsquare iOS SDK'
     s.homepage = 'https://docs.contentsquare.com/ios'
     s.author = { 'Contentsquare' => 'contact@contentsquare.com' }
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
     s.static_framework = true
     s.source_files = 'Sources/Contentsquare/**/*.swift'
    
-    s.ios.dependency 'CS_iOS_SDK_STATIC', '4.37.1'
+    s.ios.dependency 'CS_iOS_SDK_STATIC', '4.37.2'
     s.dependency 'HeapSwiftCore', '0.7.2'
     s.ios.dependency 'HeapContentsquareIntegrationSDK_static', '0.7.1'
     s.ios.dependency 'HeapIOSAutocapture', '0.7.0'
