@@ -19,4 +19,4 @@
 
 @_exported import HeapSwiftCore
 
-@objc(CSQIsInstalled) internal class Dummy: NSObject {}
+@objc(CSIsInstalled) internal class Dummy: NSObject {}
