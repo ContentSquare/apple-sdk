@@ -1,3 +1,5 @@
+import Foundation
+
 #if canImport(ContentsquareModule)
 @_exported import ContentsquareModule
 #endif
