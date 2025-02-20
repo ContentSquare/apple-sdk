@@ -10,12 +10,12 @@ import Foundation
 @_exported import HeapContentsquareIntegrationSDK_static
 #endif
 
-#if canImport(HeapIOSAutocaptureImplementation) && canImport(HeapIOSAutocapture)
+#if canImport(HeapIOSAutocapture)
 @_exported import HeapIOSAutocapture
 #endif
 
 
-#if canImport(HeapNotificationAutocaptureImplementation) && canImport(HeapNotificationAutocapture)
+#if canImport(HeapNotificationAutocapture)
 @_exported import HeapNotificationAutocapture
 #endif
 
