@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.6.2]
+
+### Changed
+
+- Update Heap Core dependency to [0.8.5][heap-swift-core-0.8.5]
+
+[heap-swift-core-0.8.5]: https://github.com/heap/heap-swift-core-sdk/releases/tag/0.8.5
+[0.6.2]: https://github.com/ContentSquare/apple-sdk/releases/tag/0.6.2
+
 ## [0.6.1]
 
 ### Changed
