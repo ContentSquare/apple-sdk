@@ -3,5 +3,5 @@ Please refer to [the documentation for integration instructions](https://docs.co
 
 ---
 You can find more information about Contentsquare here:
- - [Android SDK](https://docs.contentsquare.com/en/csq-sdk-android/)
+ - [Android SDK](https://docs.contentsquare.com/en)
 
