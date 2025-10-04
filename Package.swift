@@ -19,10 +19,10 @@ let package = Package(
             ]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ContentSquare/CS_iOS_SDK_DYNAMIC.git", exact: "4.43.3"),
+        .package(url: "https://github.com/djpearce/CS_iOS_SDK_DYNAMIC", branch: "patch-1"),
         .package(url: "https://github.com/heap/heap-swift-core-sdk.git", exact: "0.8.6"),
-        .package(url: "https://github.com/ContentSquare/apple-interim-bridge-sdk.git", exact: "0.11.0"),
-        .package(url: "https://github.com/heap/heap-ios-autocapture-sdk.git", exact: "0.9.0"),
+        .package(url: "https://github.com/djpearce/apple-interim-bridge-sdk", branch: "patch-1"),
+        .package(url: "https://github.com/djpearce/heap-ios-autocapture-sdk", branch: "patch-1"),
         .package(url: "https://github.com/heap/heap-notification-autocapture-sdk.git", exact: "0.8.0"),
     ],
     targets: [
