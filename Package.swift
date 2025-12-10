@@ -16,11 +16,11 @@ let package = Package(
         ]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ContentSquare/CS_iOS_SDK.git", exact: "4.45.0"),
-        .package(url: "https://github.com/heap/heap-swift-core-sdk.git", exact: "0.8.7"),
-        .package(url: "https://github.com/heap/heap-ios-cs-integration-sdk.git", exact: "0.8.0"),
-        .package(url: "https://github.com/heap/heap-ios-autocapture-sdk.git", exact: "0.9.1"),
-        .package(url: "https://github.com/heap/heap-notification-autocapture-sdk.git", exact: "0.8.0"),
+        .package(url: "https://github.com/ContentSquare/CS_iOS_SDK.git", exact: "4.45.3"),
+        .package(url: "https://github.com/heap/heap-swift-core-sdk.git", exact: "0.8.8"),
+        .package(url: "https://github.com/heap/heap-ios-cs-integration-sdk.git", exact: "0.8.1"),
+        .package(url: "https://github.com/heap/heap-ios-autocapture-sdk.git", exact: "0.10.1"),
+        .package(url: "https://github.com/heap/heap-notification-autocapture-sdk.git", exact: "0.8.1"),
     ],
     targets: [
         .target(

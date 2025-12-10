@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.10.1]
+
+### Changed
+
+- Update CS dependency to [4.45.3][cs-4.45.3]
+- Update HeapiOSAutocapture to [0.10.1][heap-ios-autocapture-0.10.1]
+- Update HeapSwiftCore to 0.8.8 [0.8.8][heap-swift-core-0.8.8]
+- Update HeapNotificationAutocapture to 0.8.1 [0.8.1][heap-notification-autocapture-0.8.1]
+
+[cs-4.45.3]: https://github.com/ContentSquare/CS_iOS_SDK/releases/tag/4.45.3
+[heap-ios-autocapture-0.10.1]: https://github.com/heap/heap-ios-autocapture-sdk/releases/tag/0.10.1
+[heap-swift-core-0.8.8]: https://github.com/heap/heap-swift-core-sdk/releases/tag/0.8.8
+[heap-notification-autocapture-0.8.1]: https://github.com/heap/heap-notification-autocapture-sdk.git/releases/tag/0.8.1
+[0.10.1]: https://github.com/ContentSquare/apple-sdk/releases/tag/0.10.1
+
 ## [0.10.0]
 
 ### Changed
