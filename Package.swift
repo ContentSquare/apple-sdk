@@ -16,7 +16,7 @@ let package = Package(
             ]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ContentSquare/CS_iOS_SDK_DYNAMIC.git", exact: "4.46.0"),
+        .package(url: "https://github.com/ContentSquare/CS_iOS_SDK_DYNAMIC.git", exact: "4.46.1"),
         .package(url: "https://github.com/heap/heap-swift-core-sdk.git", exact: "0.8.8"),
         .package(url: "https://github.com/ContentSquare/apple-interim-bridge-sdk.git", exact: "0.14.0"),
         .package(url: "https://github.com/heap/heap-ios-autocapture-sdk.git", exact: "0.10.1"),
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "ContentsquareSDK",
-            url: "https://github.com/ContentSquare/apple-sdk/releases/download/1.6.0/package.zip",
-            checksum: "089a732a2d266740f8783d6e15d2e206f72ba2a89ebfb5a93a460c42cedc8e05"
+            url: "https://github.com/ContentSquare/apple-sdk/releases/download/1.6.1/package.zip",
+            checksum: "38f0f1ee649c0dea6a601c87a18d2fa052c845c2b45245192f66e6a48a0d8113"
         ),
     ],
     swiftLanguageVersions: [.v5]
