@@ -17,9 +17,9 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/ContentSquare/CS_iOS_SDK_DYNAMIC.git", exact: "4.50.0"),
-        .package(url: "https://github.com/heap/heap-swift-core-sdk.git", revision: "0.9.0"),
+        .package(url: "https://github.com/heap/heap-swift-core-sdk.git", exact: "0.9.0"),
         .package(url: "https://github.com/heap/heap-ios-autocapture-sdk.git", exact: "0.10.1"),
-        .package(url: "https://github.com/ContentSquare/apple-core-sdk.git", revision: "0.1.3"),
+        .package(url: "https://github.com/ContentSquare/apple-core-sdk.git", exact: "0.1.3"),
         .package(url: "https://github.com/heap/heap-notification-autocapture-sdk.git", exact: "0.8.3"),
     ],
     targets: [
