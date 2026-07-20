@@ -16,10 +16,10 @@ let package = Package(
             ]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ContentSquare/CS_iOS_SDK_DYNAMIC.git", exact: "4.51.0"),
-        .package(url: "https://github.com/heap/heap-swift-core-sdk.git", exact: "0.9.1"),
+        .package(url: "https://github.com/ContentSquare/CS_iOS_SDK_DYNAMIC.git", exact: "4.46.4"),
+        .package(url: "https://github.com/heap/heap-swift-core-sdk.git", exact: "0.8.8"),
+        .package(url: "https://github.com/ContentSquare/apple-interim-bridge-sdk.git", exact: "0.14.0"),
         .package(url: "https://github.com/heap/heap-ios-autocapture-sdk.git", exact: "0.10.1"),
-        .package(url: "https://github.com/ContentSquare/apple-core-sdk.git", exact: "0.1.4"),
         .package(url: "https://github.com/heap/heap-notification-autocapture-sdk.git", exact: "0.8.3"),
     ],
     targets: [
@@ -27,17 +27,17 @@ let package = Package(
             name: "__ContentsquareSDK",
             dependencies: [
                 "ContentsquareSDK",
-                .product(name: "ContentsquareModule", package: "CS_iOS_SDK_DYNAMIC", condition: .when(platforms: [ .iOS ])),
-                .product(name: "HeapIOSAutocapture", package: "heap-ios-autocapture-sdk", condition: .when(platforms: [ .iOS, .macCatalyst ])),
-                .product(name: "HeapNotificationAutocapture", package: "heap-notification-autocapture-sdk", condition: .when(platforms: [ .iOS, .macCatalyst, .macOS, .watchOS, .visionOS ])),
+                .product(name: "ContentsquareModule", package: "CS_iOS_SDK_DYNAMIC"),
+                .product(name: "ContentsquareInterimBridge", package: "apple-interim-bridge-sdk", condition: .when(platforms: [ .iOS ])),
+                .product(name: "HeapIOSAutocapture", package: "heap-ios-autocapture-sdk"),
+                .product(name: "HeapNotificationAutocapture", package: "heap-notification-autocapture-sdk"),
                 .product(name: "HeapSwiftCore", package: "heap-swift-core-sdk"),
-                .product(name: "ContentsquareCore", package: "apple-core-sdk"),
             ]
         ),
         .binaryTarget(
             name: "ContentsquareSDK",
-            url: "https://github.com/ContentSquare/apple-sdk/releases/download/1.11.0/package.zip",
-            checksum: "c4448b31046d7d00ed3815d6b934a79bfe646e939512f729eb6a246b3ce1f2c3"
+            url: "https://github.com/ContentSquare/apple-sdk/releases/download/1.6.4/package.zip",
+            checksum: "fe8525ccf313a75781384d6065d237f25170c68b0f67eb8aa8eddf239ad0bbdd"
         ),
     ],
     swiftLanguageVersions: [.v5]
