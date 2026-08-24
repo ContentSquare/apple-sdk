@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
     s.requires_arc = true
     s.cocoapods_version = '>= 1.7.0'
   
-    s.ios.dependency 'CS_iOS_SDK', '4.52.1'
+    s.ios.dependency 'CS_iOS_SDK', '4.52.3'
     s.ios.dependency 'ContentsquareCore', '0.2.0'
     s.ios.dependency 'HeapSwiftCore', '0.9.2'
     s.ios.dependency 'HeapIOSAutocapture', '0.10.2'
