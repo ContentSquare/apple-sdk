@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'ContentsquareSDK'
-    s.version = '1.13.1'
+    s.version = '1.13.2'
     s.summary = 'Contentsquare iOS SDK'
     s.homepage = 'https://docs.contentsquare.com/ios'
     s.author = { 'Contentsquare' => 'contact@contentsquare.com' }
@@ -31,10 +31,10 @@ Pod::Spec.new do |s|
     s.requires_arc = true
     s.cocoapods_version = '>= 1.7.0'
   
-    s.ios.dependency 'CS_iOS_SDK', '4.53.1'
+    s.ios.dependency 'CS_iOS_SDK', '4.53.2'
     s.ios.dependency 'ContentsquareCore', '0.2.4'
     s.ios.dependency 'ContentsquareUICore', '0.2.1'
     s.ios.dependency 'HeapSwiftCore', '0.10.0'
-    s.ios.dependency 'HeapIOSAutocapture', '0.11.0'
+    s.ios.dependency 'HeapIOSAutocapture', '0.11.1'
     s.ios.dependency 'HeapNotificationAutocapture', '0.8.3'
 end
